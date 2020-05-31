@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(244, 244, 246);
+
+    padding-top: 44px;
+    padding-bottom: 49px;
+}
+
+header {
+
+    background: rgb(40, 133, 202);
+    /*background: red;*/
+    line-height: 44px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+
+    z-index: 9999;
+
+}
+
+
+.DS_second_section img{
+    width: 100%;
+}
+
+/*成行的标签写法:display:table;  width:需求值*/
+footer{
+    display: table;
+    width: 100%;
+    background: black;
+    height: 49px;
+
+    left: 0;
+    bottom: 0;
+    position: fixed;
+
+
+}
+
+/*成列的标签:display: table-cell;  width:需求值 */
+footer a{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+
+    text-decoration: none;
+
+}
+
+footer a img{
+    width: 18px;
+}
+
+footer a span{
+    display: block;
+    font-size: 12px;
+    color: white;
+}
+
